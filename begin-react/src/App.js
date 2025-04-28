@@ -1,4 +1,5 @@
 // App.js
+import './App.css';
 import React from 'react';
 import Profile from './components/Profile';
 import Contact from './components/Contact';
