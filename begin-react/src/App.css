@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.profile h2 {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0 15px 0;
+}
+
+.profile button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.contact,
+.skills,
+.achievements {
+    margin-bottom: 30px;
+}
+
+.contact h3,
+.skills h3,
+.achievements h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.skills div span {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.achievements div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
