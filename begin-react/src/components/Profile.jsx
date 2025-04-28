@@ -3,7 +3,7 @@ function Profile() {
     return (
         <div className="profile">
             <img
-                src="프로필이미지링크"
+                src=""
                 alt="Profile"
                 style={{ borderRadius: '50%', width: '200px', height: '200px' }}
             />
